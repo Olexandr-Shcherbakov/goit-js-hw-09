@@ -1,3 +1,74 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery-item {
+  max-width: 300px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+
+.feedback-form{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.labemess{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.inpemaimes{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.butt{width: 120px;
+  margin-top:20px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+.butt:hover{
+  background-color: #0056b3;
+}
 /**
   |============================
   | include css partials with
