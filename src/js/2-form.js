@@ -15,7 +15,7 @@ if (savedData) {
     if (parsedData.email) form.elements.email.value = parsedData.email;
     if (parsedData.message) form.elements.message.value = parsedData.message;
   } catch (error) {
-    console.error('❌ Не вдалося розпарсити дані зі сховища:', error);
+    console.error('❌ Failed to parse data from storage :', error);
   }
 }
 
